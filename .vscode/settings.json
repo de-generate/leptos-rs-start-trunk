@@ -1,14 +1,19 @@
 {
-    "rust-analyzer.rustfmt.overrideCommand": [
-        "leptosfmt",
-        "--stdin",
-        "--rustfmt"
-    ],
-    "editor.formatOnSave": true,
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "css.validate": false,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "other": "on",
+        "strings": true
+    },
+    "emmet.includeLanguages": {
+        "*.rs": "html",
+        "rust": "html"
     },
     "files.associations": {
         "*.rs": "rust"
     },
+    "tailwindCSS.includeLanguages": {
+        "*.rs": "html",
+        "rust": "html"
+    }
 }
